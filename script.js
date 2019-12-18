@@ -18,6 +18,7 @@ function generatePassword()
 
     //add password to textbox/display area
     document.getElementById("display").value = password;
+    alert(password);
 
     //add password to previously generated passwords section
     document.getElementById("lastPasswords").innerHTML += password + "<br />";
