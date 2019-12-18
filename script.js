@@ -31,11 +31,10 @@ document.getElementById("slider").oninput = function(){
         document.getElementById("length").innerHTML = "Length: " + document.getElementById("slider").value;
 }
     else{
-        document.getElementById("length").innerHTML = "Length: 1";
+        document.getElementById("length").innerHTML = "Length: 8";
                 }
     }
-    
-}
+
 
 //function to copy password to clipboard
 function copyPassword(){
@@ -44,10 +43,4 @@ function copyPassword(){
     alert("Password has been copied to clipboard.");
 }
 
-//call the generate function only when user clicks on Generate button
-generateButton.addEventListener("click", generatePassword);
 
-
-//call the copyPassword function only when user clicks on copy to clipboard button
-copyButton.addEventListener("click", copyPassword);
-}
