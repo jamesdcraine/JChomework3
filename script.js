@@ -1,6 +1,5 @@
 //generate random password
-function generatePassword()
-{
+function generatePassword(){
 
     //set password length/complexity
     let complexity = document.getElementById("slider").value;
@@ -18,18 +17,16 @@ function generatePassword()
 
     //add password to textbox/display area
     document.getElementById("display").value = password;
-    alert(password);
-
+ 
     //add password to previously generated passwords section
     document.getElementById("lastPasswords").innerHTML += password + "<br />";
 }
 
 //set default length display of 64
-document.getElementById("length").innerHTML= "Length: 64";
+document.getElementById("length").innerHTML = "Length: 64";
 
 //function to set length based on slider position
-document.getElementById("slider").oninput = function()
-{
+document.getElementById("slider").oninput = function(){
 
       if (document.getElementById("slider").value > 8 )
         {
@@ -42,8 +39,7 @@ document.getElementById("slider").oninput = function()
 }
 
 //function to copy password to clipboard
-function copyPassword()
-{
+function copyPassword(){
     document.getElementById("display").select();
     document.execCommand("Copy");
     alert("Password has been copied to clipboard.");
