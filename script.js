@@ -21,8 +21,8 @@ function generatePassword(){
     document.getElementById("lastNums").innerHTML += password + "<br />";
 }
 
-//set default length display of 128
-document.getElementById("length").innerHTML = "Length: 64";
+//set default length display of 64
+document.getElementById("length").innerHTML= "Length: 64";
 
 //function to set length based on slider position
 document.getElementById("slider").oninput = function(){
@@ -35,7 +35,6 @@ document.getElementById("slider").oninput = function(){
                 }
             
         }
-    }
 
 //function to copy password to clipboard
 function copyPassword(){
