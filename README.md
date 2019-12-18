@@ -28,3 +28,6 @@ The application should validate user input and ensure that at least one characte
 As a bonus, the user should also have the option to click a button to copy the password to their clipboard. Your application should have a clean and polished user interface and be responsive, ensuring that it adapts to multiple screen sizes. 
 
 Your application should be deployed to GitHub Pages.
+
+Screenshot:
+<img src="assets/password.jpg" alt="screenshot of deployed generator">
