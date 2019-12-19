@@ -1,3 +1,6 @@
+//prompt user to move the slider to select length of their password
+alert("Adjust the slider to choose your password length.")
+
 //generate random password
 function generatePassword(){
 
