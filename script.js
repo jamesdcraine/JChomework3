@@ -2,7 +2,7 @@
 function generatePassword(){
 
     //set password length/complexity
-    let complexity = document.getElementById("slider").value;
+    let complexity = document.getElementById('slider').value;
    
     //possible password values
     let charSet = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()_+";
@@ -43,7 +43,5 @@ function copyPassword(){
     document.getElementById("display").select();
     document.execCommand("Copy");
     alert("Password has been copied to clipboard.");
+
 }
-
-
-
