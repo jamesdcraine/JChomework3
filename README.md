@@ -31,3 +31,5 @@ Your application should be deployed to GitHub Pages.
 
 Screenshot:
 <img src="assets/password.jpg" alt="screenshot of deployed generator">
+<br />
+<img src="assets/password2.jpg" alt="screenshot of deployed generator">
