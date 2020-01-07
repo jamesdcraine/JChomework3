@@ -1,5 +1,14 @@
 //prompt user to move the slider to select length of their password
-alert("Adjust the slider to choose your password length.")
+
+agreement = confirm("Adjust the slider to choose your password length.");
+
+if (agreement){
+   console.log("they totally want it");
+}
+else {
+    window.location = "https://www.amazon.com/Cybersecurity-Dummies-Joseph-Steinberg/dp/1119560322";
+
+}
 
 //generate random password
 function generatePassword(){
